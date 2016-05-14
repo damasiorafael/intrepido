@@ -13,10 +13,10 @@ if($_SERVER['SERVER_NAME'] == "localhost"){
 	$pass	= "";
 	$bd		= "intrepido";
 } else {
-	$host 	= "dbmy0043.whservidor.com";
-	$user	= "intrepido5";
-	$pass	= "@intrepido2013";
-	$bd		= "intrepido5";
+	$host 	= "localhost";
+	$user	= "intrepYC2unLmXBH";
+	$pass	= "6sk9pdjvuT8n23l";
+	$bd		= "intrepido53_com_br";
 }
 
 //$con = mysql_pconnect('localhost','root','');
