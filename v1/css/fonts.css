@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'DroidSansMono';
+    src: url('../fonts/DroidSansMono.eot');
+    src: url('../fonts/DroidSansMono.eot') format('embedded-opentype'),
+         url('../fonts/DroidSansMono.woff2') format('woff2'),
+         url('../fonts/DroidSansMono.woff') format('woff'),
+         url('../fonts/DroidSansMono.ttf') format('truetype'),
+         url('../fonts/DroidSansMono.svg#DroidSansMono') format('svg');
+}
+@font-face {
+    font-family: 'ChangaOneItalic';
+    src: url('../fonts/ChangaOneItalic.eot');
+    src: url('../fonts/ChangaOneItalic.eot') format('embedded-opentype'),
+         url('../fonts/ChangaOneItalic.woff2') format('woff2'),
+         url('../fonts/ChangaOneItalic.woff') format('woff'),
+         url('../fonts/ChangaOneItalic.ttf') format('truetype'),
+         url('../fonts/ChangaOneItalic.svg#ChangaOneItalic') format('svg');
+}
+@font-face {
+    font-family: 'ChangaOneRegular';
+    src: url('../fonts/ChangaOneRegular.eot');
+    src: url('../fonts/ChangaOneRegular.eot') format('embedded-opentype'),
+         url('../fonts/ChangaOneRegular.woff2') format('woff2'),
+         url('../fonts/ChangaOneRegular.woff') format('woff'),
+         url('../fonts/ChangaOneRegular.ttf') format('truetype'),
+         url('../fonts/ChangaOneRegular.svg#ChangaOneRegular') format('svg');
+}
