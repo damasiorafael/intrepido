@@ -6,14 +6,14 @@
 	
 	$arrayItens = $_REQUEST['arrayItens'];
 	
-	echo $tit_portfolio	= utf8_decode($_REQUEST['tit_portfolio']);
-	echo $tx_portfolio	= utf8_decode($_REQUEST['tx_portfolio']);
+	$tit_portfolio	= utf8_decode($_REQUEST['tit_portfolio']);
+	$tx_portfolio	= utf8_decode($_REQUEST['tx_portfolio']);
 	
 	$arrayImagens	= $_FILES['img_destaque'];
 
 	//echo count($arrayImagens['type'])."<br />";
 
-	exit();
+	//exit();
 
 	/*echo "<pre>";
 	print_r($arrayImagens);
