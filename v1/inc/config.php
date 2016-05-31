@@ -6,7 +6,7 @@ error_reporting(E_ERROR);
 /*$host 	= "dbmy0044.whservidor.com";
 $user	= "construpav";
 $pass	= "@construp";
-$bd		= "construpav";*/
+$bd		= "construpav";* /
 if($_SERVER['SERVER_NAME'] == "localhost"){
 	$host 	= "localhost";
 	$user	= "root";
@@ -18,7 +18,7 @@ if($_SERVER['SERVER_NAME'] == "localhost"){
 	$user	= "intrepYC2unLmXBH";
 	$pass	= "6sk9pdjvuT8n23l";
 	$bd		= "intrepido53_com_br";
-	*/
+	* /
 
 	$host 	= "localhost";
 	$user	= "intrephisSfTQHkc";
@@ -30,7 +30,7 @@ if($_SERVER['SERVER_NAME'] == "localhost"){
 //$db = mysql_select_db('construpaver');
 
 $con = mysql_connect($host,$user,$pass);
-$db = mysql_select_db($bd);
+$db = mysql_select_db($bd);*/
 
 function protecao($string){
 
