@@ -19,10 +19,11 @@ if($_SERVER['SERVER_NAME'] == "localhost"){
 	$pass	= "6sk9pdjvuT8n23l";
 	$bd		= "intrepido53_com_br";
 	*/
-	$host 	= "distrito704.csyxe4aw1ay2.sa-east-1.rds.amazonaws.com";
-	$user	= "distrito704";
-	$pass	= "85602434.dam";
-	$bd		= "intrepido";
+
+	$host 	= "localhost";
+	$user	= "intrephisSfTQHkc";
+	$pass	= "9WGaiuv8DAd1hYK";
+	$bd		= "intrepido53_com_br";
 }
 
 //$con = mysql_pconnect('localhost','root','');
