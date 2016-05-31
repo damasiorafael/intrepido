@@ -1,4 +1,5 @@
 <?php
+    echo sha1("Admin@Intrepido2016");
 	include("../inc/config.php");
 	if((isset($_SESSION['username']) == true) and (isset($_SESSION['senha']) == true)) header('Location: index.php');//CRIAR REDIRECIONAMENTO PRA INDEX
 	if((isset($_POST['username']) == true) and (isset($_POST['senha']) == true)){

@@ -13,9 +13,15 @@ if($_SERVER['SERVER_NAME'] == "localhost"){
 	$pass	= "";
 	$bd		= "intrepido";
 } else {
+	/*
 	$host 	= "localhost";
 	$user	= "intrepYC2unLmXBH";
 	$pass	= "6sk9pdjvuT8n23l";
+	$bd		= "intrepido53_com_br";
+	*/
+	$host 	= "localhost";
+	$user	= "intrepNh3KJATu9n";
+	$pass	= "eZxbu9WmkEyFAVK";
 	$bd		= "intrepido53_com_br";
 }
 
