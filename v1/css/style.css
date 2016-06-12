@@ -139,6 +139,46 @@ body { margin: 0!important; padding: 0!important;}
 .first-text { color: #959b18; font-size: 40px; float: left;}
 .second-text { color: #53560e; font-size: 55px; float: left; clear: both;}
 
+/* 11/06/2016 */
+.content-interno {
+	width: 50%;
+	display: inline-block;
+}
+.content-interno.content-left {
+	float: left;
+}
+.content-interno.content-right {
+	width: calc(50% - 40px);
+	float: right;
+	padding-left: 40px;
+}
+.lista-clientes {
+	float: left;
+	width: 100%;
+	margin-top: 16px;
+}
+.lista-clientes li {
+	width: 33.3333%;
+	float: left;
+	margin-right: 0;
+}
+.lista-clientes li:nth-child(3n) {
+	margin-right: 0;
+}
+.lista-clientes li img {
+
+}
+@media screen and (max-width: 968px){
+	.content-interno {
+		width: 100%;
+	}
+	.content-interno.content-right {
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
+
 /* O QUE FAZEMOS */
 .o-que-fazemos { width: 100%; float: left; background: #000;}
 .content-o-que-fazemos { width: 1180px; margin: auto;}/* prepapar para responsivo*/

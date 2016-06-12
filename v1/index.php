@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
 <head>
 <?php include("inc/head.php"); ?>
-<title>Intr&eacute;pido 53 - Design Intelignte</title>
+<title>Intr&eacute;pido 53 - Design Inteligente</title>
 </head>
 <body id="topo">
 <div id="overflow-loading"></div>
@@ -122,12 +122,26 @@
     </section>
     <section class="sobre-nos" id="sobre-nos">
     	<section class="content-sobre-nos content-responsive">
-            <h2><span class="tit-page tit-black">//sobre n&oacute;s</span> <span class="tit-page tit-white">about us</span></h2>
-            <p class="tx-page tx-sobre-nos">
-                A Intr&eacute;pido 53 &eacute; formada por profissionais que compartilham as experi&ecirc;ncias e valores para a execu&ccedil;&atilde;o de um projeto consistente.<br /><br /><br />
-                Acreditamos no poder do design na transforma&ccedil;&atilde;o de vidas e marcas.
-            </p>
-            <p class="frase-sobre-nos"><span class="first-text">"somos pequenos,</span><span class="second-text">pensamos grande"</span></p>
+            <div class="content-interno content-left">
+                <h2><span class="tit-page tit-black">//sobre n&oacute;s</span> <span class="tit-page tit-white">about us</span></h2>
+                <p class="tx-page tx-sobre-nos">
+                    A Intr&eacute;pido 53 &eacute; formada por profissionais que compartilham as experi&ecirc;ncias e valores para a execu&ccedil;&atilde;o de um projeto consistente.<br /><br /><br />
+                    Acreditamos no poder do design na transforma&ccedil;&atilde;o de vidas e marcas.
+                </p>
+                <p class="frase-sobre-nos"><span class="first-text">"somos pequenos,</span><span class="second-text">pensamos grande"</span></p>
+            </div>
+            <div class="content-interno content-right">
+                <h2><span class="tit-page tit-black">//alguns </span> <span class="tit-page tit-white">clientes</span></h2>
+                <ul class="lista-clientes">
+                    <?php
+                        for($i=1; $i<=12; $i++){
+                    ?>
+                            <li>
+                                <img src="img/cliente-<?php echo $i; ?>.png" />
+                            </li>
+                    <?php } ?>
+                </ul>
+            </div>
         </section>
     </section>
     <section class="o-que-fazemos" id="o-que-fazemos">
